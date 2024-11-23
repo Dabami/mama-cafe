@@ -1,13 +1,23 @@
-interface Props {
-    isSelected: boolean
-    index: BigInteger
-  }
+import { useState } from "react"
+import './Product.css'
 
-export function Square ({ isSelected, index} : Props) {
-    let className: string = `square ${isSelected ? 'is-selected' : ''}`
-  
+interface Props {
+    description: string
+    img: string
+}
+
+export function Product({ description, img }: Props) {
+
+    const [isSelected, setSelected] = useState(false)
+
+    function handleClick() {
+        setSelected(!isSelected)
+    }
+
     return (
-      <div className={className}>
-      </div>
+        <div onClick={handleClick} className={isSelected ? 'grid-item is-selected' : 'grid-item'}>
+            <img className="item-image" src={img}></img>
+            <p className="item-description">{description}</p>
+        </div>
     )
-  }
+}

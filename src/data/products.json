@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "description": "Caja",
+            "img": "./vite.svg"
+        },
+        {
+            "description": "Caja",
+            "img": "./vite.svg"
+        },
+        {
+            "description": "Bolsa",
+            "img": "./vite.svg"
+        },
+        {
+            "description": "Bolsa",
+            "img": "./vite.svg"
+        }
+    ]
+}
