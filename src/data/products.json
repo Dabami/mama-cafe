@@ -15,6 +15,10 @@
         {
             "description": "Bolsa",
             "img": "./vite.svg"
+        },
+        {
+            "description": "Bolsita",
+            "img": "./vite.svg"
         }
     ]
 }
