@@ -19,6 +19,14 @@
         {
             "description": "Bolsita",
             "img": "./vite.svg"
+        },
+        {
+            "description": "Cajita",
+            "img": "./vite.svg"
+        },
+        {
+            "description": "Cajita",
+            "img": "./vite.svg"
         }
     ]
 }
