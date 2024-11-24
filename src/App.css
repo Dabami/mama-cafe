@@ -1,10 +1,4 @@
 #root {
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    background-color: rgb(255, 168, 241);
-}
-
-.card {
-    padding: 2em;
+	padding: 2rem;
+	text-align: center;
 }
