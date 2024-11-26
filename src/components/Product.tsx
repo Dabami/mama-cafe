@@ -1,13 +1,13 @@
 import { useState } from "react"
 import './Product.css'
 
-interface Props {
+export interface ProductProps {
 	title: string;
 	description: string;
 	img: string;
 }
 
-export function Product({ title, description, img }: Props) {
+export function Product({ title, description, img }: ProductProps) {
 
 	const [isSelected, setSelected] = useState(false)
 
@@ -16,10 +16,10 @@ export function Product({ title, description, img }: Props) {
 	}
 
 	return (
-		<div onClick={handleClick} className={isSelected ? 'grid-item is-selected' : 'grid-item'}>
-			<img className="item-image" src={img}></img>
-			<p className="item-title">{title}</p>
-			<p className="item-description">{description}</p>
+		<div onClick={handleClick} className={isSelected ? 'product is-selected' : 'product'}>
+			<img className="product-image" src={img}></img>
+			<p className="product-title">{title}</p>
+			<p className="product-description">{description}</p>
 		</div>
 	)
 }

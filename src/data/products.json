@@ -1,39 +1,59 @@
 {
-	"products": [
+	"sections": [
 		{
-			"title": "Caja",
-			"description": "Caja de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QRE0oEtSVImw4CjgcTjmPXWhiVKlX5PK0g&s"
+			"title": "Llegada bebé",
+			"products": [
+				{
+					"title": "Caja",
+					"description": "Caja de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QRE0oEtSVImw4CjgcTjmPXWhiVKlX5PK0g&s"
+				},
+				{
+					"title": "Caja",
+					"description": "Caja de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
+				},
+				{
+					"title": "Bolsa",
+					"description": "Bolsa de ejemplo con decoraciones navideñas ultra mega guays.",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Km9tzgaPAcZZ-p8qGsHHO3KcOffSDiB0FQ&s"
+				},
+				{
+					"title": "Bolsa",
+					"description": "Bolsa de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
+				},
+				{
+					"title": "Bolsita",
+					"description": "Bolsita de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QRE0oEtSVImw4CjgcTjmPXWhiVKlX5PK0g&s"
+				},
+				{
+					"title": "Cajita",
+					"description": "Cajita de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Km9tzgaPAcZZ-p8qGsHHO3KcOffSDiB0FQ&s"
+				},
+				{
+					"title": "Cajita",
+					"description": "Cajita de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
+				}
+			]
 		},
 		{
-			"title": "Caja",
-			"description": "Caja de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
-		},
-		{
-			"title": "Bolsa",
-			"description": "Bolsa de ejemplo con decoraciones navideñas ultra mega guays.",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Km9tzgaPAcZZ-p8qGsHHO3KcOffSDiB0FQ&s"
-		},
-		{
-			"title": "Bolsa",
-			"description": "Bolsa de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
-		},
-		{
-			"title": "Bolsita",
-			"description": "Bolsita de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-QRE0oEtSVImw4CjgcTjmPXWhiVKlX5PK0g&s"
-		},
-		{
-			"title": "Cajita",
-			"description": "Cajita de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Km9tzgaPAcZZ-p8qGsHHO3KcOffSDiB0FQ&s"
-		},
-		{
-			"title": "Cajita",
-			"description": "Cajita de ejemplo",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
+			"title": "¡Gracias profe!",
+			"products": [
+				{
+					"title": "Cajita",
+					"description": "Cajita de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Km9tzgaPAcZZ-p8qGsHHO3KcOffSDiB0FQ&s"
+				},
+				{
+					"title": "Cajita",
+					"description": "Cajita de ejemplo",
+					"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWw3B5Uyo60GFpWJOXpEhtEPfMU7PAAnRCQ&s"
+				}
+			]
 		}
 	]
 }

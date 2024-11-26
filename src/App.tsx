@@ -1,14 +1,14 @@
 import './App.css'
-import { ProductsGrid } from './components/ProductsGrid'
-import { products } from './data/products.json'
+import { sections } from './data/products.json'
 import { Logo } from './components/Logo'
+import { SectionsList } from './components/SectionsList'
 
 function App() {
 
 	return (
 		<div>
 			<Logo img='./logo.png'></Logo>
-			<ProductsGrid products={products}></ProductsGrid>
+			<SectionsList sections={sections}></SectionsList>
 		</div>
 	)
 }
