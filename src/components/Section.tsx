@@ -9,7 +9,7 @@ export interface SectionProps {
 
 export function Section({ title, products }: SectionProps) {
     return (
-        <div className="section">
+        <div className="section" id={title}>
             <p className="section-title">{title}</p>
             <ProductsGrid products={products}></ProductsGrid>
         </div>

@@ -1,16 +1,13 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { sections } from './data/products.json'
-import { Logo } from './components/Logo'
-import { SectionsList } from './components/SectionsList'
+import { Home } from './components/Home'
 
-function App() {
+
+export function App() {
 
 	return (
-		<div>
-			<Logo img='./logo.png'></Logo>
-			<SectionsList sections={sections}></SectionsList>
-		</div>
+		<Routes>
+			<Route path='/mama-cafe/' element={<Home />}></Route>
+		</Routes>
 	)
 }
-
-export default App
