@@ -1,5 +1,5 @@
-import { ProductProps } from "./Product";
-import { ProductsGrid } from "./ProductsGrid";
+import { Grid } from "../grid/Grid";
+import { Product, ProductProps } from "../product/Product";
 import './Section.css'
 
 export interface SectionProps {
@@ -11,7 +11,11 @@ export function Section({ title, products }: SectionProps) {
     return (
         <div className="section" id={title}>
             <p className="section-title">{title}</p>
-            <ProductsGrid products={products}></ProductsGrid>
+            <Grid
+                items={products}
+                renderItem={(product) => <Product key={product.title} {...product} />}
+                className="products-grid"
+            />
         </div>
     )
 }

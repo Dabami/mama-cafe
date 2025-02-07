@@ -1,0 +1,29 @@
+#root {
+	padding: 2rem;
+	text-align: center;
+}
+.index {
+    list-style-type: none;
+    text-align: start;
+    font-size: larger;
+    list-style: none;
+    padding: 0;
+}
+
+.index-link a {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 5px 0;
+    background-color: #007bff; /* Azul por defecto */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+	margin: 5px 0;
+}
+
+.index-link a:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
